@@ -103,7 +103,7 @@ button {
 			<br>
 
 			<button style="position: relative;" class="GFG">
-				<a style="text-decoration: none" href="getDatas.jsp" /a> Get
+				<a style="text-decoration: none" href="getWholeData.jsp" /a> Get
 					All Data 
 			</button>
 		</div>

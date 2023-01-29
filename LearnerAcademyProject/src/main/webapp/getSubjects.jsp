@@ -15,7 +15,7 @@ table, th, td {
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="#E7BFB7">
+<body>
 <%!
 int count=1;
 %>

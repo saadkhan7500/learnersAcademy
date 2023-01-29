@@ -9,7 +9,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="#E7BFB7">
+<body>
 <%
      List<Classs> c =  StudentImpl.getStudent();
 
@@ -26,26 +26,32 @@
     	
     	  Iterator<Student> stu = clas.getStudent().iterator();
     	  out.println("<h2>Students</h2>");
+    	  int i=1;
     	  while(stu.hasNext())
     	  {
-    		  out.print("<h3 style='color:red;'> =>"+stu.next().getName()+"</h3>");  
+    		  out.print("<h3> "+i+". "+stu.next().getName()+"</h3>"); 
+    		  i++;
     	  }
+    	  i=1;
     	  out.println("<hr>");
     	  out.println("<h2>Subjects </h2>");
     	  
     	  Iterator<Subject> sub = clas.getSubject().iterator();
     	  while(sub.hasNext())
     	  {
-    		  out.print("<h3 style='color:green;'> =>"+sub.next().getSubjectName()+"</h3>");  
+    		  out.print("<h3> "+i+". "+sub.next().getSubjectName()+"</h3>");
+    		  i++;
     	  }
     	  out.println("<hr>");
           out.println("<h2>Teachers </h2>");
-    	  
+    	  i=1;
     	  Iterator<Teacher> t = clas.getTeacher().iterator();
     	  while(t.hasNext())
     	  {
-    		  out.print("<h3 style='color:yellow;'> =>"+t.next().getTeacherName()+"</h3>");  
+    		  out.print("<h3> "+i+". "+t.next().getTeacherName()+"</h3>");  
+    		  i++;
     	  } 
+    	  
     	  %>
     	  </div>
     	  

@@ -12,10 +12,10 @@
 </head>
 <body>
 	<center>
-		<h1 style="font-size: 100px">Enter the record here</h1>
+		<h1 style="font-size: 100px">Enter the record</h1>
 	</center>
 	<div
-		style="margin-left: 25%; margin-top: 10%; border: 3px solid black; width: 50%; height: 100%;">
+		style="margin-left: 25%; margin-top: 5%;background-color:yellow; border: 2px solid black; width: 50%; height: 100%;">
 		<br>
 		<form action="createClassImpl.jsp">
 			<%
