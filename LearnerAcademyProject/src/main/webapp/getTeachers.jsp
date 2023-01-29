@@ -31,7 +31,7 @@ int count=1;
 <table style="width:50%;font-size:30px;text-align:center;">
   <tr>
     <th>S.no</th>
-    <th>Student Name</th> 
+    <th>Teacher Name</th> 
   </tr>
   <% 
   for(String s: students)
