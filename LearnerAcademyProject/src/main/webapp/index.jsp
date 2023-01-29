@@ -86,24 +86,24 @@ button {
 		<div id="middlebox">
 			<h2>Get Records</h2>
 			<button class="GFG">
-				<a style="text-decoration: none" href="getAllStudent.jsp" /a>
+				<a style="text-decoration: none" href="getStudents.jsp" /a>
 					Get All Student 
 			</button>
 
 			<button class="GFG">
-				<a style="text-decoration: none" href="getAllSubject.jsp" /a>
+				<a style="text-decoration: none" href="getSubjects.jsp" /a>
 					Get All Subjects 
 			</button>
 
 			<button class="GFG">
-				<a style="text-decoration: none" href="getAllTeacher.jsp" /a>
+				<a style="text-decoration: none" href="getTeachers.jsp" /a>
 					Get All Teachers 
 			</button>
 
 			<br>
 
 			<button style="position: relative;" class="GFG">
-				<a style="text-decoration: none" href="getAllDatas.jsp" /a> Get
+				<a style="text-decoration: none" href="getDatas.jsp" /a> Get
 					All Data 
 			</button>
 		</div>
@@ -128,6 +128,8 @@ button {
 			</button>
 
 		</div>
+		
+		
 
 	</div>
 
